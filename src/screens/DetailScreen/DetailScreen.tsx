@@ -40,7 +40,7 @@ const DetailScreen: React.FC = () => {
         <FastImage
           source={{ uri: movie?.artworkUrl100 }}
           style={styles.artwork}
-          defaultSource={require("../../../assets/images/moviePlaceholder.png")}
+          // defaultSource={require("../../../assets/images/moviePlaceholder.png")}
         />
         <Text style={styles.title}>{movie?.trackName}</Text>
         <Text style={styles.genre}>{movie?.primaryGenreName}</Text>

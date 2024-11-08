@@ -27,7 +27,7 @@ const MovieItem: React.FC<MovieItemProps> = ({
       <FastImage
         source={{ uri: movie?.artworkUrl100 }}
         style={[styles.image , {borderRadius: isFavoriteLayout ? 30 : 10}]}
-        defaultSource={require("../../assets/images/moviePlaceholder.png")}
+        // defaultSource={require("../../assets/images/moviePlaceholder.png")}
       />
         {showDetails && (
           <View style={styles.infoContainer}>
